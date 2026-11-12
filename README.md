@@ -4,7 +4,7 @@
 
 **提交截止：2026年11月18日 23:59（北京时间）**
 
-当前已完成第1至3章。4幅图共308个亚像素角点用于30 mm基础标定，复算的总体重投影RMSE为0.174462 px，与标定返回值一致。
+当前已完成第1至4章。4幅图共308个亚像素角点用于30 mm基础标定，复算的总体重投影RMSE为0.174462 px，与标定返回值一致；第4章已完成去畸变、局部对照和直线性验证。
 
 ## 实验数据与技术方案
 
@@ -80,7 +80,7 @@
 | 角点检测 | `python code/detect_corners.py` | `code/results/corners/`：角点NPZ、4张编号图、完整统计表与实验图 |
 | 基础标定 | `python code/calibrate.py` | `code/results/calibration/` 中的30 mm与60 mm标定参数 |
 | 误差评估 | `python code/evaluate.py` | `code/results/evaluation/` 中的逐点残差、逐图和区域统计、RMSE核对及结果图 |
-| 去畸变 | 待补充 | 校正图、局部对照与直线性指标 |
+| 去畸变 | `python code/undistort.py` | `code/results/undistortion/`：去畸变图、原图/校正图对照、局部图、角点坐标和直线性统计 |
 | 模型对比 | 待补充 | 各模型参数、误差和校正效果 |
 | 子集稳定性 | 待补充 | 各图像组合参数、误差与变化分析 |
 

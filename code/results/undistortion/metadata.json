@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "image_names": [
+    "Im_L_1.png",
+    "Im_L_2.png",
+    "Im_L_3.png",
+    "Im_L_4.png"
+  ],
+  "image_size": [
+    1024,
+    576
+  ],
+  "pattern_size": [
+    11,
+    7
+  ],
+  "calibration_file": "code/results/calibration/calibration_30mm.json",
+  "corners_file": "code/results/corners/corners.npz",
+  "K": [
+    [
+      1287.035407366388,
+      0.0,
+      527.9234170951574
+    ],
+    [
+      0.0,
+      1308.1115095435719,
+      284.01607017668323
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "new_K": [
+    [
+      1287.035407366388,
+      0.0,
+      527.9234170951574
+    ],
+    [
+      0.0,
+      1308.1115095435719,
+      284.01607017668323
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "dist_coeffs": [
+    0.046074461690800546,
+    -0.6794351432266224,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "distortion_order": [
+    "k1",
+    "k2",
+    "p1",
+    "p2",
+    "k3"
+  ],
+  "crop": false,
+  "coordinate_transform": "cv2.undistortPoints(points, K, dist_coeffs, P=K)",
+  "line_fit": "orthogonal least squares by PCA; all 7 rows and 11 columns"
+}
