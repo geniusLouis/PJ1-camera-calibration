@@ -1,0 +1,22 @@
+{
+  "opencv_version": "4.13.0",
+  "numpy_version": "2.3.5",
+  "comparison_image": "Im_L_4.png",
+  "output_size": [
+    1024,
+    576
+  ],
+  "output_camera_matrix": "Use the fitted K as both input and output (Chapter 4).",
+  "crop": false,
+  "illustrated_row": 0,
+  "illustrated_column": 0,
+  "signed_residual_convention": "Positive below the row or right of the column.",
+  "residual_display": "Fit aligned with horizontal or vertical zero line; normal offsets enlarged equally.",
+  "subset_model": "M1",
+  "subset_flags": 136,
+  "subset_free_distortion": [
+    "k1",
+    "k2"
+  ],
+  "subset_square_mm": 30.0
+}
